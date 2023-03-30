@@ -87,7 +87,7 @@ def plot_results(results):
 
 if __name__ == '__main__':
     results = {}
-    for i in range(100, 1100, 100):
+    for i in range(1000, 11000, 1000):
         t1 = time.time()
         alg1(i)
         t2 = time.time()
